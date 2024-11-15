@@ -21,7 +21,10 @@ This project is a simple **Smart Parking Lot System** designed to simulate parki
 
 - **Java**: Ensure you have [Java 17+](https://openjdk.java.net/) installed.
 - **Maven**: Ensure you have [Apache Maven](https://maven.apache.org/) installed for project build and dependency management.
-- 
+
+### Project Directory Structure
+
+
 parking-lot-system/
 ├── src/
 │   ├── main/java/com/example/parking/
@@ -35,30 +38,56 @@ parking-lot-system/
 │       └── ParkingLotSystemTest.java # Unit tests for overall system
 └── pom.xml                          # Maven build file
 
-File Descriptions
-Source Files
-ParkingTicket.java
-Represents a parking ticket, which contains attributes such as the ticket ID, vehicle information, parking duration, etc.
 
-ParkingSpot.java
-Represents a parking spot in the parking lot. This class may have attributes like spot number, availability status, and size (compact, standard, oversized).
+---
 
-Floor.java
-Represents a floor in the parking structure. Manages multiple parking spots and may contain methods for finding available spots, adding cars, etc.
+## File Descriptions
 
-ParkingLotSystem.java
-The main class responsible for managing the overall parking system. It coordinates between floors, spots, and tickets. This class may include methods for parking a vehicle, retrieving a vehicle, and generating tickets.
+### Source Files
 
-Test Files
-ParkingTicketTest.java
-Contains unit tests to validate the functionality of the ParkingTicket class, ensuring that it behaves as expected under various scenarios.
+- **ParkingTicket.java**  
+  Represents a parking ticket, which contains attributes such as the ticket ID, vehicle information, parking duration, etc.
 
-FloorTest.java
-Contains unit tests to validate the functionality of the Floor class, checking methods related to spot management and vehicle parking.
+- **ParkingSpot.java**  
+  Represents a parking spot in the parking lot. This class may have attributes like spot number, availability status, and size (compact, standard, oversized).
 
-ParkingLotSystemTest.java
-Contains unit tests for the ParkingLotSystem class, testing the integration of the overall parking system and its interaction with Floor, ParkingSpot, and ParkingTicket.
+- **Floor.java**  
+  Represents a floor in the parking structure. Manages multiple parking spots and may contain methods for finding available spots, adding cars, etc.
 
-Build Configuration
-pom.xml
-The Maven build configuration file that defines the project's dependencies, build settings, and plugins needed to manage the project lifecycle.
+- **ParkingLotSystem.java**  
+  The main class responsible for managing the overall parking system. It coordinates between floors, spots, and tickets. This class may include methods for parking a vehicle, retrieving a vehicle, and generating tickets.
+
+### Test Files
+
+- **ParkingTicketTest.java**  
+  Contains unit tests to validate the functionality of the `ParkingTicket` class, ensuring that it behaves as expected under various scenarios.
+
+- **FloorTest.java**  
+  Contains unit tests to validate the functionality of the `Floor` class, checking methods related to spot management and vehicle parking.
+
+- **ParkingLotSystemTest.java**  
+  Contains unit tests for the `ParkingLotSystem` class, testing the integration of the overall parking system and its interaction with `Floor`, `ParkingSpot`, and `ParkingTicket`.
+
+### Build Configuration
+
+- **pom.xml**  
+  The Maven build configuration file that defines the project's dependencies, build settings, and plugins needed to manage the project lifecycle.
+
+---
+
+## Usage Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone <repository-url>
+   cd parking-lot-system
+
+2. **Build the project**
+   ```bash
+   mvn clean install
+
+3. **Run tests**
+   ```bash
+   mvn test
+  
