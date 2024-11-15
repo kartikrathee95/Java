@@ -38,7 +38,6 @@ parking-lot-system/
 │       └── ParkingLotSystemTest.java # Unit tests for overall system
 └── pom.xml                          # Maven build file
 
-
 ---
 
 ## File Descriptions
