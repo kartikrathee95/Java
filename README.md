@@ -45,31 +45,6 @@ cd parking-lot-system
 └── pom.xml                          # Maven build file
 
 
-
-Certainly! Here is the text in Markdown (.md) format:
-
-```markdown
-# Parking Lot System Project Structure
-
-This document outlines the structure of the Parking Lot System project, including its main source files, tests, and the build configuration file.
-
-## Project Directory Structure
-
-```
-.
-├── src/
-│   ├── main/java/com/example/parking/
-│   │   ├── ParkingTicket.java       # Represents a parking ticket
-│   │   ├── ParkingSpot.java         # Represents a parking spot
-│   │   ├── Floor.java               # Represents a parking floor with spots
-│   │   └── ParkingLotSystem.java    # Manages the overall parking system
-│   └── test/java/com/example/parking/
-│       ├── ParkingTicketTest.java   # Unit tests for ParkingTicket class
-│       ├── FloorTest.java           # Unit tests for Floor class
-│       └── ParkingLotSystemTest.java # Unit tests for overall system
-└── pom.xml                          # Maven build file
-```
-
 ## File Descriptions
 
 ### Source Files
