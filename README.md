@@ -24,8 +24,7 @@ This project is a simple **Smart Parking Lot System** designed to simulate parki
 
 ### Project Directory Structure
 
-
-parking-lot-system/
+.
 ├── src/
 │   ├── main/java/com/example/parking/
 │   │   ├── ParkingTicket.java       # Represents a parking ticket
@@ -37,6 +36,7 @@ parking-lot-system/
 │       ├── FloorTest.java           # Unit tests for Floor class
 │       └── ParkingLotSystemTest.java # Unit tests for overall system
 └── pom.xml                          # Maven build file
+
 
 ---
 
