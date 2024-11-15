@@ -30,7 +30,29 @@ To get started with the project, clone the repository to your local machine:
 git clone https://github.com/your-username/parking-lot-system.git
 cd parking-lot-system
 
+Certainly! Here is the text in Markdown (.md) format:
 
+```markdown
+# Parking Lot System Project Structure
+
+This document outlines the structure of the Parking Lot System project, including its main source files, tests, and the build configuration file.
+
+## Project Directory Structure
+
+```
+.
+├── src/
+│   ├── main/java/com/example/parking/
+│   │   ├── ParkingTicket.java       # Represents a parking ticket
+│   │   ├── ParkingSpot.java         # Represents a parking spot
+│   │   ├── Floor.java               # Represents a parking floor with spots
+│   │   └── ParkingLotSystem.java    # Manages the overall parking system
+│   └── test/java/com/example/parking/
+│       ├── ParkingTicketTest.java   # Unit tests for ParkingTicket class
+│       ├── FloorTest.java           # Unit tests for Floor class
+│       └── ParkingLotSystemTest.java # Unit tests for overall system
+└── pom.xml                          # Maven build file
+```
 
 ## File Descriptions
 
@@ -83,3 +105,14 @@ cd parking-lot-system
    ```bash
    mvn test
    ```
+
+## Contributors
+
+- [Your Name] - Project Lead
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+```
+
+You can copy this text and save it in a `.md` file for your documentation.
