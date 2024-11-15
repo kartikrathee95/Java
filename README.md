@@ -44,7 +44,7 @@ This document outlines the structure of the Parking Lot System project, includin
 │       └── ParkingLotSystemTest.java # Unit tests for overall system
 └── pom.xml                          # Maven build file
 
-## File Descriptions
+### File Descriptions
 
 ### Source Files
 
