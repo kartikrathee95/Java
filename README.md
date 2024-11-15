@@ -31,7 +31,7 @@ git clone https://github.com/your-username/parking-lot-system.git
 cd parking-lot-system
 
 This document outlines the structure of the Parking Lot System project, including its main source files, tests, and the build configuration file.
-
+---
 ├── src/
 │   ├── main/java/com/example/parking/
 │   │   ├── ParkingTicket.java       # Represents a parking ticket
@@ -43,7 +43,7 @@ This document outlines the structure of the Parking Lot System project, includin
 │       ├── FloorTest.java           # Unit tests for Floor class
 │       └── ParkingLotSystemTest.java # Unit tests for overall system
 └── pom.xml                          # Maven build file
-
+---
 ### File Descriptions
 
 ### Source Files
