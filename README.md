@@ -30,15 +30,8 @@ To get started with the project, clone the repository to your local machine:
 git clone https://github.com/your-username/parking-lot-system.git
 cd parking-lot-system
 
-```markdown
-# Parking Lot System Project Structure
-
 This document outlines the structure of the Parking Lot System project, including its main source files, tests, and the build configuration file.
 
-## Project Directory Structure
-
-```
-.
 ├── src/
 │   ├── main/java/com/example/parking/
 │   │   ├── ParkingTicket.java       # Represents a parking ticket
@@ -50,7 +43,6 @@ This document outlines the structure of the Parking Lot System project, includin
 │       ├── FloorTest.java           # Unit tests for Floor class
 │       └── ParkingLotSystemTest.java # Unit tests for overall system
 └── pom.xml                          # Maven build file
-```
 
 ## File Descriptions
 
