@@ -30,8 +30,6 @@ To get started with the project, clone the repository to your local machine:
 git clone https://github.com/your-username/parking-lot-system.git
 cd parking-lot-system
 
-Certainly! Here is the text in Markdown (.md) format:
-
 ```markdown
 # Parking Lot System Project Structure
 
