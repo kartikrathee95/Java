@@ -31,19 +31,6 @@ git clone https://github.com/your-username/parking-lot-system.git
 cd parking-lot-system
 
 
-.
-├── src/
-│   ├── main/java/com/example/parking/
-│   │   ├── ParkingTicket.java       # Represents a parking ticket
-│   │   ├── ParkingSpot.java         # Represents a parking spot
-│   │   ├── Floor.java               # Represents a parking floor with spots
-│   │   └── ParkingLotSystem.java    # Manages the overall parking system
-│   └── test/java/com/example/parking/
-│       ├── ParkingTicketTest.java   # Unit tests for ParkingTicket class
-│       ├── FloorTest.java           # Unit tests for Floor class
-│       └── ParkingLotSystemTest.java # Unit tests for overall system
-└── pom.xml                          # Maven build file
-
 
 ## File Descriptions
 
